@@ -1,0 +1,18 @@
+@keyframes fade-in-up-clear {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+    filter: blur(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.animate-fade-in-up-clear {
+  animation: fade-in-up-clear 1s ease-out forwards;
+  opacity: 0;
+  will-change: transform, opacity, filter;
+}
