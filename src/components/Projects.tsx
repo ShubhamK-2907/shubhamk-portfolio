@@ -34,7 +34,7 @@ const Projects = () => {
     },
     {
       title: "Clumsy Bird",
-      description: "A Flappy Bird game built on top of Vanilla Javascript and grunt as the build tool",
+      description: "A Flappy Bird game built on top of MelonJS and grunt as the build tool",
       image: "/clumsyBird.png",
       github: "https://github.com/ShubhamK-2907/clumsy-bird",
       demo: "https://clumsy-bird-sage.vercel.app/",
