@@ -3,7 +3,7 @@ import { Link as LinkIcon } from 'lucide-react';
 const WorkExperience = () => {
   const experiences = [
     {
-      period: "Feb 2025 - Jun 2025",
+      period: "Feb 2025 - May 2025",
       role: "Software Engineer",
       company: "Astria Digital",
       companyColor: "bg-orange-100 text-orange-700",
