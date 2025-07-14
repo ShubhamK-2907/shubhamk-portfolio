@@ -27,7 +27,7 @@ const Projects = () => {
     {
       title: "My Pathfinder Visualiser",
       description: "A visual pathfinding simulator that demonstrates popular algorithms like A*, Dijkstra, and BFS in an interactive grid-based interface.",
-      image: "/clumsyBird.png",
+      image: "/pathfinder.png",
       github: "https://github.com/ShubhamK-2907/MyPathFinder",
       demo: "https://mypathfindervisualiser-2do7.vercel.app/",
       tech: ["Svelte", "Typescript", "Vite"]
@@ -35,7 +35,7 @@ const Projects = () => {
     {
       title: "Clumsy Bird",
       description: "A Flappy Bird game built on top of Vanilla Javascript and grunt as the build tool",
-      image: "/pathfinder.png",
+      image: "/clumsyBird.png",
       github: "https://github.com/ShubhamK-2907/clumsy-bird",
       demo: "https://clumsy-bird-sage.vercel.app/",
       tech: ["Javascript", "MelonJS", "Grunt"]
