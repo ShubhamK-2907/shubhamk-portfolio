@@ -24,7 +24,7 @@ const About = () => {
           </p>
 
           <p>
-            Beyond coding, I'm fueled by gaming, Marvel, and travel. That creative energy often finds its way into my work — crafting interfaces that don't just look good, but actually solve real-world problems.
+            Beyond coding, I'm fueled by gaming, Marvel, and travel. That creative energy often finds its way into my work — crafting products that don't just look good, but actually solve real-world problems.
           </p>
 
           <p className="font-medium text-gray-900">
