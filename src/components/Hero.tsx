@@ -36,21 +36,31 @@ const Hero = () => {
           but feel great to use.
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center px-4">
-          <Button 
-            className="w-full sm:w-auto bg-black text-white hover:bg-gray-800 rounded-full px-6 sm:px-8 py-3 font-medium transition-all duration-200 shadow-lg hover:shadow-xl"
-            asChild
-          >
-            <a href="#contact">Hire me</a>
-          </Button>
-          <div 
-            className="w-full sm:w-auto bg-green-50 text-green-700 border-green-200 hover:bg-green-100 rounded-full px-6 sm:px-8 py-3 font-medium transition-all duration-200 flex items-center gap-2"
-          >
-            <div className="rounded-full bg-lime-700 h-[6px] w-[6px] inline-block"></div>
-            <div className="absolute animate-ping rounded-full bg-lime-700 h-[6px] w-[6px] opacity-75"></div>
-            <div>Open to Opportunities</div>
-          </div>
-        </div>
+        <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 px-4">
+  {/* Hire Me Button */}
+  <Button 
+    className="bg-black text-white hover:bg-gray-800 rounded-full px-6 sm:px-8 py-3 font-medium transition-all duration-200 shadow-lg hover:shadow-xl"
+    asChild
+  >
+    <a href="#contact">Hire me</a>
+  </Button>
+
+  {/* Availability Badge */}
+  <div 
+    className="flex items-center gap-2 bg-green-50 text-green-700 border border-green-100 rounded-full px-4 py-2 text-sm font-medium"
+  >
+    {/* Ping Dot */}
+    <div className="relative">
+      <span className="block rounded-full bg-green-700 h-[6px] w-[6px]" />
+      <span className="absolute top-0 left-0 h-[6px] w-[6px] rounded-full bg-green-700 opacity-75 animate-ping" />
+    </div>
+
+    {/* Responsive Text */}
+    <span className="block sm:hidden">Available</span>
+    <span className="hidden sm:block">Open to Opportunities</span>
+  </div>
+</div>
+
       </div>
     </section>
   );

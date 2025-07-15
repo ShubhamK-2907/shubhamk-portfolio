@@ -47,19 +47,11 @@ const Contact = () => {
 
       {/* Modal */}
       {isModalOpen && (
-        <div className="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm flex items-center justify-center p-4 sm:p-8">
+        <div className="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm flex items-center justify-center p-4 sm:p-8" onClick={closeModal}>
           <div
             className="relative w-full max-w-4xl h-[90vh] bg-white rounded-xl shadow-xl overflow-hidden animate-fade-in-up"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Close Button */}
-            <button
-              className="absolute top-4 right-4 text-gray-400 hover:text-gray-700 transition z-10"
-              onClick={closeModal}
-              aria-label="Close"
-            >
-              <X size={24} />
-            </button>
 
             {/* Loader */}
             {!isIframeLoaded && (
@@ -70,7 +62,7 @@ const Contact = () => {
 
             {/* Cal.com iframe */}
             <iframe
-              src="https://cal.com/shubham-kumar-sahoo?layout=month_view&embedType=modal&theme=light"
+              src="https://cal.com/shubham-kumar-sahoo?layout=month_view&embedType=modal&theme=light&hideOverlay=true"
               title="Book a call"
               className="w-full h-full border-0"
               onLoad={() => setIsIframeLoaded(true)}

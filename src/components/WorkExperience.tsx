@@ -36,7 +36,7 @@ const WorkExperience = () => {
     },
     {
       period: "Aug 2018 - Dec 2020",
-      role: "Photographer & Cinematographer",
+      role: "Photographer",
       company: "PES University",
       companyColor: "bg-green-100 text-green-700",
       iconColor: "text-green-700",
@@ -53,34 +53,32 @@ const WorkExperience = () => {
           {experiences.map((exp, index) => (
             <div
               key={index}
-              className="flex flex-col sm:flex-row sm:items-start gap-2 animate-fadeUp opacity-0"
+              className="flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-4 animate-fadeUp opacity-0"
               style={{
                 animationDelay: `${index * 0.15}s`,
                 animationFillMode: 'forwards'
               }}
             >
               {/* Date column */}
-              <div className="w-full sm:w-44 text-sm text-gray-500 font-medium">
+              <div className="w-full sm:w-44 text-sm text-gray-500 font-medium mb-1 sm:mb-0">
                 {exp.period}
               </div>
 
               {/* Role and Company */}
-              <div className="flex-1 flex flex-wrap items-center gap-3">
-                <span className="text-gray-900 font-medium whitespace-nowrap">
+              <div className="flex-1 flex flex-wrap sm:flex-nowrap items-center gap-x-2 gap-y-2 text-sm sm:text-base font-medium text-gray-900">
+                <span className="whitespace-nowrap">
                   {exp.role} <span className="text-gray-500">at</span>
                 </span>
 
-                {exp.company && (
-                  <a
-                    href={exp.companyURL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium ${exp.companyColor}`}
-                  >
-                    {exp.company}
-                    <LinkIcon size={14} className={`glow-icon ${exp.iconColor}`} />
-                  </a>
-                )}
+                <a
+                  href={exp.companyURL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`flex items-center gap-1 px-3 py-1 rounded-full ${exp.companyColor} whitespace-nowrap`}
+                >
+                  {exp.company}
+                  <LinkIcon size={14} className={`glow-icon ${exp.iconColor}`} />
+                </a>
               </div>
             </div>
           ))}
