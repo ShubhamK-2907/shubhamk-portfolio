@@ -53,14 +53,14 @@ const WorkExperience = () => {
           {experiences.map((exp, index) => (
             <div
               key={index}
-              className="flex flex-col md:flex-row md:items-center gap-2 animate-fadeUp opacity-0"
+              className="flex flex-col sm:flex-row sm:items-start gap-2 animate-fadeUp opacity-0"
               style={{
                 animationDelay: `${index * 0.15}s`,
                 animationFillMode: 'forwards'
               }}
             >
               {/* Date column */}
-              <div className="md:w-44 text-sm text-gray-500 font-medium text-right md:text-left">
+              <div className="w-full sm:w-44 text-sm text-gray-500 font-medium">
                 {exp.period}
               </div>
 
