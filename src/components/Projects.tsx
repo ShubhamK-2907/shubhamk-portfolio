@@ -17,6 +17,14 @@ const Projects = () => {
       tech: ["TypeScript", "NextJS", "GSAP", "SSG"]
     },
     {
+      title: "Infinite-scroll Table Component UI",
+      description: "React table with infinite scroll and virtualization for large datasets. Built with TypeScript and TanStack Query/Virtual to render thousands of rows efficiently.",
+      image: "/infiniteScroll.png",
+      github: "https://github.com/ShubhamK-2907/infinite-scroll-table-component",
+      demo: "https://infinite-scroll-table-component.vercel.app/",
+      tech: ["React", "TypeScript", "Tailwind", "Vite", "Tanstack"]
+    },
+    {
       title: "Real Estate Discovery UI App",
       description: "A modern real estate application optimized for mobile and tablet devices.",
       image: "/real_estate_new.jpg",
@@ -47,6 +55,14 @@ const Projects = () => {
       github: "https://github.com/ShubhamK-2907/macos-ui",
       demo: "https://macos-ui-six.vercel.app/",
       tech: ["React", "Vite", "Typescript", "Zustand", "Framer"]
+    },
+    {
+      title: "Pineapple Pen",
+      description: "PineapplePen is a lightweight and intuitive code playground built for developers who want a no-fuss environment to write, edit, and preview HTML, CSS, and JavaScript in real-time",
+      image: "/pineapplepen.png",
+      github: "https://github.com/ShubhamK-2907/pineapplePen",
+      demo: "https://pineapple-pen.vercel.app/",
+      tech: ["React", "Vite", "Typescript", "CodeMirror"]
     },
   ];
 
