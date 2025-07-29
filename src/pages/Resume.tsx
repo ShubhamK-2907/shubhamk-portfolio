@@ -9,11 +9,11 @@ const Resume = () => {
 
   useEffect(() => {
     const startExit = setTimeout(() => {
-      setExitLoader(true); // Start slide-up
+      setExitLoader(true); 
     }, 1800);
 
     const endLoading = setTimeout(() => {
-      setLoading(false); // Unmount loader
+      setLoading(false); 
     }, 2000);
 
     return () => {
