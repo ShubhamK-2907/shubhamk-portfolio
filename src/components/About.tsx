@@ -16,11 +16,11 @@ const About = () => {
           </p>
 
           <p>
-            Over the past two years, I've worked extensively in fast-paced startup teams of 4–5 members, operating under tight deadlines as an Individual Contributor. The Startup Hustle? It taught me how to ship — fast and clean.
+            Over the past three years, I've worked extensively in fast-paced startup, with teams of 6-8 members, operating under tight deadlines as an Individual Contributor. The Startup Hustle? It taught me how to ship — fast and clean.
           </p>
 
           <p>
-            While front-end is my playground, I also bring solid experience with backend technologies, making me comfortable across the full stack.
+            While front-end is my homeground, I bring a solid experience with diverse backend technologies, making me confident across the full stack.
           </p>
 
           <p>
