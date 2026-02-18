@@ -6,8 +6,8 @@ const WorkExperience = () => {
       period: "Oct 2025 - Present",
       role: "Software Engineer II",
       company: "Hinge Health",
-      companyColor: "bg-orange-100 text-orange-700",
-      iconColor: "text-orange-700",
+      companyColor: "bg-gray-100 text-green-700",
+      iconColor: "text-green-500",
       companyURL: "https://www.hingehealth.com"
     },
     {
