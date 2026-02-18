@@ -121,7 +121,7 @@ const Resume = () => {
                 <div className="relative bg-white/30 backdrop-blur-xl border border-white/40 rounded-2xl sm:rounded-3xl p-4 sm:p-6 lg:p-8 shadow-2xl">
                   <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg overflow-hidden flex items-center justify-center">
                     <img
-                      src="/resume_img.png"
+                      src="/resume.png"
                       alt="Shubham Kumar Sahoo Resume"
                       className="w-full h-auto max-w-full object-contain"
                     />
