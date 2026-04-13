@@ -5,21 +5,21 @@ const Projects = () => {
     {
       title: "UDOOH Web App",
       description: "A public web application designed to facilitate digital out of home dynamic ad campaigns scheduling",
-      image: "/udoohPlatform.svg",
+      image: "udoohPlatform.svg",
       demo: "https://app.udooh.com/",
       tech: ["React", "Typescript", "Firebase", "GCP"]
     },
     {
       title: "Udooh Website",
       description: "A full-featured discovery website built with Next.js and Typescript",
-      image: "/udoohWebsite.svg",
+      image: "udoohWebsite.svg",
       demo: "https://udooh.com/",
       tech: ["TypeScript", "NextJS", "GSAP", "SSG"]
     },
     {
       title: "Infinite-scroll Table Component UI",
       description: "React table with infinite scroll and virtualization for large datasets. Built with TypeScript and TanStack Query/Virtual to render thousands of rows efficiently.",
-      image: "/infiniteScroll.png",
+      image: "infiniteScroll.png",
       github: "https://github.com/ShubhamK-2907/infinite-scroll-table-component",
       demo: "https://infinite-scroll-table-component.vercel.app/",
       tech: ["React", "TypeScript", "Tailwind", "Vite", "Tanstack"]
@@ -27,7 +27,7 @@ const Projects = () => {
     {
       title: "Real Estate Discovery UI App",
       description: "A modern real estate application optimized for mobile and tablet devices.",
-      image: "/real_estate_new.jpg",
+      image: "real_estate_new.jpg",
       github: "https://github.com/ShubhamK-2907/real-estate-application",
       demo: "https://real-estate-application-phi.vercel.app/",
       tech: ["React", "TypeScript", "SASS", "Vite", "React Router", "Leaflet", "Docker"]
@@ -35,7 +35,7 @@ const Projects = () => {
     {
       title: "My Pathfinder Visualiser",
       description: "A visual pathfinding simulator that demonstrates popular algorithms like A*, Dijkstra, and BFS in an interactive grid-based interface.",
-      image: "/pathfinder.png",
+      image: "pathfinder.png",
       github: "https://github.com/ShubhamK-2907/MyPathFinder",
       demo: "https://mypathfindervisualiser-2do7.vercel.app/",
       tech: ["Svelte", "Typescript", "Vite"]
@@ -43,7 +43,7 @@ const Projects = () => {
     {
       title: "Clumsy Bird",
       description: "A Flappy Bird game built on top of MelonJS and grunt as the build tool",
-      image: "/clumsyBird.png",
+      image: "clumsyBird.png",
       github: "https://github.com/ShubhamK-2907/clumsy-bird",
       demo: "https://clumsy-bird-sage.vercel.app/",
       tech: ["Javascript", "MelonJS", "Grunt"]
@@ -51,7 +51,7 @@ const Projects = () => {
     {
       title: "MacOS UI",
       description: "A macOS-style desktop UI clone built with Vite, React.js, and TypeScript to replicate the sleek and dynamic experience of a modern desktop UI, inspired by Apple's design standards",
-      image: "/macos.png",
+      image: "macos.png",
       github: "https://github.com/ShubhamK-2907/macos-ui",
       demo: "https://macos-ui-six.vercel.app/",
       tech: ["React", "Vite", "Typescript", "Zustand", "Framer"]
@@ -59,7 +59,7 @@ const Projects = () => {
     {
       title: "Pineapple Pen",
       description: "PineapplePen is a lightweight and intuitive code playground built for developers who want a no-fuss environment to write, edit, and preview HTML, CSS, and JavaScript in real-time",
-      image: "/pineapplepen.png",
+      image: "pineapplepen.png",
       github: "https://github.com/ShubhamK-2907/pineapplePen",
       demo: "https://pineapple-pen.vercel.app/",
       tech: ["React", "Vite", "Typescript", "CodeMirror"]
@@ -89,7 +89,7 @@ const Projects = () => {
               <div className="relative">
                 <div className="aspect-video overflow-hidden">
                   <img 
-                    src={project.image} 
+                    src={`${import.meta.env.BASE_URL}${project.image}`} 
                     alt={project.title} 
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />

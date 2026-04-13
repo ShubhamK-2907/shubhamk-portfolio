@@ -3,7 +3,7 @@ import './PolaroidGallery.css';
 
 const polaroidImages = [
   {
-    src: '/setup.jpg',
+    src: 'setup.jpg',
     alt: 'My Desk Setup',
     caption: 'My Desk Setup',
     zIndex: 10,
@@ -11,7 +11,7 @@ const polaroidImages = [
     translate: 'translate-x-[-70px] translate-y-[30px]',
   },
   {
-    src: '/travel.jpg',
+    src: 'travel.jpg',
     alt: 'I love travelling',
     caption: 'I love travelling',
     zIndex: 20,
@@ -33,7 +33,7 @@ const PolaroidGallery = () => {
           }}
         >
           <img
-            src={image.src}
+            src={`${import.meta.env.BASE_URL}${image.src}`}
             alt={image.alt}
             className="w-48 h-48 absolute left-[8px] top-[8px] object-cover rounded-sm"
           />
