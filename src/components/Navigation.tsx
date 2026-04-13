@@ -12,7 +12,7 @@ const Navigation = ({ scrollY }: NavigationProps) => {
     { icon: User, href: '#about', label: 'About' },
     { icon: Briefcase, href: '#experience', label: 'Experience' },
     { icon: FolderOpen, href: '#projects', label: 'Projects' },
-    { icon: FileText, href: '/resume', label: 'Resume' },
+    { icon: FileText, href: `${import.meta.env.BASE_URL}resume`, label: 'Resume' },
   ];
 
   return (
