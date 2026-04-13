@@ -32,7 +32,11 @@ const Resume = () => {
           }`}
           style={{ willChange: 'transform' }}
         >
-          <img src="/loader2.gif" alt="Loading..." className="w-16 h-16" />
+          <img
+            src={`${import.meta.env.BASE_URL}loader2.gif`}
+            alt="Loading..."
+            className="w-16 h-16"
+          />
         </div>
       )}
 
@@ -48,7 +52,7 @@ const Resume = () => {
               className="text-gray-700 hover:bg-white/10 rounded-full px-4 sm:px-6 py-3 text-sm sm:text-base transition-all duration-200 font-medium"
               asChild
             >
-              <a href="/">
+              <a href={import.meta.env.BASE_URL}>
                 <ArrowLeft className="w-4 h-4 mr-1 sm:mr-2" />
                 <span className="hidden sm:inline">Back to Portfolio</span>
                 <span className="sm:hidden">Back</span>
@@ -90,7 +94,7 @@ const Resume = () => {
                         className="bg-black text-white hover:bg-gray-800 rounded-full px-6 sm:px-8 py-3 font-medium transition-all duration-200 shadow-lg hover:shadow-xl text-sm sm:text-base"
                         asChild
                       >
-                        <a href="/resume.pdf" download>
+                        <a href={`${import.meta.env.BASE_URL}resume.pdf`} download>
                           <Download className="w-4 h-4 mr-2" />
                           Download PDF
                         </a>
@@ -101,7 +105,7 @@ const Resume = () => {
                         asChild
                       >
                         <a
-                          href="/resume.pdf"
+                          href={`${import.meta.env.BASE_URL}resume.pdf`}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -121,7 +125,7 @@ const Resume = () => {
                 <div className="relative bg-white/30 backdrop-blur-xl border border-white/40 rounded-2xl sm:rounded-3xl p-4 sm:p-6 lg:p-8 shadow-2xl">
                   <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg overflow-hidden flex items-center justify-center">
                     <img
-                      src="/resume.png"
+                      src={`${import.meta.env.BASE_URL}resume.png`}
                       alt="Shubham Kumar Sahoo Resume"
                       className="w-full h-auto max-w-full object-contain"
                     />

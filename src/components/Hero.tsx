@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="mb-6 sm:mb-8">
           <div className="mx-auto mb-4 sm:mb-6 w-28 h-28 sm:w-32 sm:h-32 rounded-full overflow-hidden shadow-lg">
             <img 
-              src="/anime_style_portrait.jpeg" 
+              src={`${import.meta.env.BASE_URL}anime_style_portrait.jpeg`} 
               alt="Shubham Kumar Sahoo"
               className="w-full h-full object-cover"
               loading="lazy"
