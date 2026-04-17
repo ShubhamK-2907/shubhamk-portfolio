@@ -19,14 +19,6 @@ const WorkExperience = () => {
       companyURL: "https://www.astriadigital.com"
     },
     {
-      period: "May 2024 - Jan 2025",
-      role: "Founding Engineer",
-      company: "Udooh",
-      companyColor: "bg-pink-100 text-pink-700",
-      iconColor: "text-pink-700",
-      companyURL: "https://www.udooh.com"
-    },
-    {
       period: "Jul 2022 - Apr 2024",
       role: "Associate Software Engineer (UI)",
       company: "Lifesight",
