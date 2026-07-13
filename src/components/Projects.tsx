@@ -13,7 +13,7 @@ const Projects = () => {
       title: "Udooh Website",
       description: "A full-featured discovery website built with Next.js and Typescript",
       image: "udoohWebsite.svg",
-      demo: "https://udooh.com/",
+      demo: "https://www.udooh.com/",
       tech: ["TypeScript", "NextJS", "GSAP", "SSG"]
     },
     {
