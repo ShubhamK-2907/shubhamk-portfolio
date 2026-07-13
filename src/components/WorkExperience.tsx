@@ -20,7 +20,7 @@ const WorkExperience = () => {
     },
     {
       period: "Jul 2022 - Apr 2024",
-      role: "Associate Software Engineer (UI)",
+      role: "Associate Software Engineer",
       company: "Lifesight",
       companyColor: "bg-blue-100 text-blue-700",
       iconColor: "text-blue-700",
