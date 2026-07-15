@@ -16,7 +16,7 @@ const About = () => {
           </p>
 
           <p>
-            Over the past three years, I've worked extensively in fast-paced startup, with teams of 6-8 members, operating under tight deadlines as an Individual Contributor. The Startup Hustle? It taught me how to ship — fast and clean.
+            Over the past four years, I've worked extensively in fast-paced startup, with teams of 6-8 members, operating under tight deadlines as an Individual Contributor. The Startup Hustle? It taught me how to ship — fast and clean.
           </p>
 
           <p>
