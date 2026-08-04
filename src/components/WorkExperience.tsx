@@ -11,7 +11,7 @@ const WorkExperience = () => {
       companyURL: "https://www.hingehealth.com"
     },
     {
-      period: "Feb 2025 - May 2025",
+      period: "Jun 2024 - May 2025",
       role: "Software Engineer",
       company: "Astria Digital",
       companyColor: "bg-orange-100 text-orange-700",
@@ -19,7 +19,7 @@ const WorkExperience = () => {
       companyURL: "https://www.astriadigital.com"
     },
     {
-      period: "Jul 2022 - Apr 2024",
+      period: "Jul 2022 - May 2024",
       role: "Associate Software Engineer",
       company: "Lifesight",
       companyColor: "bg-blue-100 text-blue-700",
