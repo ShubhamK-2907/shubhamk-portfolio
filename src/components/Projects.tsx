@@ -4,10 +4,10 @@ const Projects = () => {
   const projects = [
     {
       title: "UDOOH Web App",
-      description: "A public web application designed to facilitate digital out of home dynamic ad campaigns scheduling",
+      description: "Full stack web application designed to facilitate digital out of home dynamic ad campaigns scheduling",
       image: "udoohPlatform.svg",
       demo: "https://app.udooh.com/",
-      tech: ["React", "Typescript", "Firebase", "GCP"]
+      tech: ["Java", "Spring Boot", "Firebase", "AWS", "React", "Typescript"]
     },
     {
       title: "Udooh Website",
@@ -15,6 +15,12 @@ const Projects = () => {
       image: "udoohWebsite.svg",
       demo: "https://www.udooh.com/",
       tech: ["TypeScript", "NextJS", "GSAP", "SSG"]
+    },
+    {
+      title: "HiRider",
+      description: "A real time ride booking application on Go",
+      image: "hirider.png",
+      tech: ["Go", "GRPC", "RabbitMQ", "MongoDB", "Opentelemetry", "NextJS"]
     },
     {
       title: "Infinite-scroll Table Component UI",
@@ -55,15 +61,7 @@ const Projects = () => {
       github: "https://github.com/ShubhamK-2907/macos-ui",
       demo: "https://macos-ui-six.vercel.app/",
       tech: ["React", "Vite", "Typescript", "Zustand", "Framer"]
-    },
-    {
-      title: "Pineapple Pen",
-      description: "PineapplePen is a lightweight and intuitive code playground built for developers who want a no-fuss environment to write, edit, and preview HTML, CSS, and JavaScript in real-time",
-      image: "pineapplepen.png",
-      github: "https://github.com/ShubhamK-2907/pineapplePen",
-      demo: "https://pineapple-pen.vercel.app/",
-      tech: ["React", "Vite", "Typescript", "CodeMirror"]
-    },
+    }
   ];
 
   return (

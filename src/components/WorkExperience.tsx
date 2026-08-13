@@ -11,12 +11,20 @@ const WorkExperience = () => {
       companyURL: "https://www.hingehealth.com"
     },
     {
-      period: "Jun 2024 - May 2025",
+      period: "Feb 2025 - May 2025",
       role: "Software Engineer",
       company: "Astria Digital",
       companyColor: "bg-orange-100 text-orange-700",
       iconColor: "text-orange-700",
       companyURL: "https://www.astriadigital.com"
+    },
+    {
+      period: "Jun 2024 - Jan 2025",
+      role: "Lead Founding Engineer",
+      company: "Udooh",
+      companyColor: "bg-purple-100 text-purple-700",
+      iconColor: "text-purple-700",
+      companyURL: "https://www.udooh.com"
     },
     {
       period: "Jul 2022 - May 2024",
