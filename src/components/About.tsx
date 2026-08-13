@@ -12,15 +12,11 @@ const About = () => {
           </p>
 
           <p>
-            I graduated from PES University (CSE | BTech) in 2022 and have been laser-focused on building intuitive, high-performance front-end experiences ever since — especially with React and TypeScript.
+            I graduated from PES University (CSE | BTech) in 2022 and have been laser-focused on building intuitive, high-performance systems ever since — from distributed backend services handling millions of events a day, to fast, polished interfaces in React and Next.js.
           </p>
 
           <p>
-            Over the past four years, I've worked extensively in fast-paced startup, with teams of 6-8 members, operating under tight deadlines as an Individual Contributor. The Startup Hustle? It taught me how to ship — fast and clean.
-          </p>
-
-          <p>
-            While front-end is my homeground, I bring a solid experience with diverse backend technologies, making me confident across the full stack.
+            Over the past three years, I've worked extensively in fast-paced startups, with teams of 6-8 members, operating under tight deadlines as an Individual Contributor — owning everything from database design and service architecture to the UI people actually click on. The Startup Hustle? It taught me how to ship — fast and clean, end to end.
           </p>
 
           <p>
